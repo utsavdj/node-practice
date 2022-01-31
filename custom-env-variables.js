@@ -1,0 +1,10 @@
+if(process.env.USER){
+    console.log('Current user is', process.env.USER);
+}else{
+    console.log('Current user is', process.env.USERNAME);
+}
+
+console.log('\nScript executed with:');
+
+console.log('VAL1 equals to:', process.env.VAL1);
+console.log('VAL2 equals to:', process.env.VAL2);
